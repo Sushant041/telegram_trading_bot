@@ -16,14 +16,8 @@ This project is a Flask-based API that fetches cryptocurrency-related tweets, an
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/crypto-sentiment-api.git
-cd crypto-sentiment-api
-```
-
-### 2️⃣ Create a Virtual Environment
-```sh
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+git clone https://github.com/Sushant041/telegram_trading_bot.git
+cd telegram_trading_bot
 ```
 
 ### 3️⃣ Install Dependencies
