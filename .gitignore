@@ -1,0 +1,4 @@
+.env
+crypto_tweets.csv
+__pycache__/
+*.pyc
