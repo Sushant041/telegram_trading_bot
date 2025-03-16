@@ -97,6 +97,10 @@ async def fetch_tweets(query):
 
     return tweet_list  # Return the collected tweets
 
+@app.route('/')
+def home():
+    return "API is running!", 200
+
 @app.route('/fetch_tweets', methods=['GET'])
 def fetch_tweets_api():
     """API endpoint to fetch tweets with an optional custom query."""
