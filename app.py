@@ -116,5 +116,15 @@ def fetch_tweets_api():
         "tweets": results
     })
 
+@app.route('/', methods=['GET'])
+def index():
+    """Simple index route."""
+    return jsonify({
+        "status": "success",
+        "message": "Welcome to the Crypto Tweet Analyzer API!"
+    })
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))  # Use Azure's PORT or fallback to 5000
+    app.run(host='0.0.0.0', port=port, debug=True)
+
